@@ -1,0 +1,9 @@
+class CfgTasks {
+    class Fortify{
+        name = "Fortify Tool Init";
+        fsm = "";
+        condition = "";
+        description = "initServer.sqf";
+        resources[] = {};
+    };
+};

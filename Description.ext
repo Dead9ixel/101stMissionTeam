@@ -14,41 +14,41 @@ class header
 	gametype 				= UNDEFINED; 		// UNDEFINED, DM, CTF, COOP, CTI, SC, TDM, RPG, SANDBOX, ZEUS, ENDGAME, SUPPORT, KOTH, LASTMAN, SURVIVAL, PATROL
 	minplayers				= 1;
 	maxplayers 				= 100;
-	playerCountMultipleOf 	= 1;  			//Coop type missions use 1, Team type missions use 2
+	playerCountMultipleOf 	= 1;  					//Coop type missions use 1, Team type missions use 2
 };
 
 //--- Mission Title
 author 				= "CHANGE ME"; 				// the creator of this mission
-onLoadMission 		= "CHANGE ME"; 			// the text shown above the mission splash image
+onLoadMission 		= "CHANGE ME"; 					// the text shown above the mission splash image
 onLoadIntroTime 	= true;
 onLoadMissionTime 	= true;
-onLoadName 			= "CHANGE ME"; 	// the mission title shown on the loading screen at the top left
+onLoadName 			= "CHANGE ME"; 				// the mission title shown on the loading screen at the top left
 
 // Must be 750 wide by 375 high in pixels. Include sub-directory if placed in one (e.g. "Images/splash.jpg").
 loadScreen = "GARC.paa"; 
 
 
 //--- General Settings
-aiKills 				= 0; 		// no score for AI killing players
-disabledAI 				= 1; 		// disallow unit AI for empty player slots
+aiKills 				= 0; 				// no score for AI killing players
+disabledAI 				= 1; 				// disallow unit AI for empty player slots
 debriefing 				= 1; 
-allowFunctionsRecompile = 1; 		// allow recompiling functions during mission load
+allowFunctionsRecompile = 1; 						// allow recompiling functions during mission load
 
 
 //--- Debug
-enableDebugConsole = 1; 		// allow running commands for server admins during the mission
+enableDebugConsole = 1; 						// allow running commands for server admins during the mission
 
 
 //--- Respawn
 respawn 			= 3; 					// standard respawn_WEST tagged marker in the mission.sqf, placed in the mission editor
 respawnDelay 		= 5; 						// how many seconds between respawns
 respawnDialog 		= 1; 						// works in tandem with respawnTemplates
-respawnTemplates[] 	= {"MenuPosition"}; 		// allow respawn position choosing when the player dies.
+respawnTemplates[] 	= {"MenuPosition"}; 				// allow respawn position choosing when the player dies.
 respawnButton 		= 1; 						// allow manual respawn
 respawnOnStart 		= 1; 						// disable spawn choosing at mission load-in or start.
 
 //--- Garbage Collection
-corpseManagerMode = 3; 			// 0 = none, 1 = all, 2 = only respawned, 3 = only not respawned
-corpseLimit = 15; 				// how many bodies to allow in the mission at any given time
-corpseRemovalMinTime = 60; 		// 1 min
-corpseRemovalMaxTime = 120; 	// 2 min
+corpseManagerMode = 3; 							// 0 = none, 1 = all, 2 = only respawned, 3 = only not respawned
+corpseLimit = 15; 							// how many bodies to allow in the mission at any given time
+corpseRemovalMinTime = 60; 						// 1 min
+corpseRemovalMaxTime = 120; 						// 2 min

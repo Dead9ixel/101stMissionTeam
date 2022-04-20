@@ -19,10 +19,10 @@ class header
 
 //--- Mission Title
 author 				= "CHANGE ME"; 				// the creator of this mission
-onLoadMission 		= "CHANGE ME"; 					// the text shown above the mission splash image
+onLoadMission 		= "CHANGE ME"; 					// the text shown below the mission splash image
 onLoadIntroTime 	= true;
 onLoadMissionTime 	= true;
-onLoadName 			= "CHANGE ME"; 				// the mission title shown on the loading screen at the top left
+onLoadName 			= "CHANGE ME"; 				// the mission title shown above the splash image
 
 // Must be 750 wide by 375 high in pixels. Include sub-directory if placed in one (e.g. "Images/splash.jpg").
 loadScreen = "GARC.paa"; 

@@ -134,8 +134,8 @@ ace_fire_enableScreams = true;
 
 // ACE Fortify
 force ace_fortify_markObjectsOnMap = 1;
-force force ace_fortify_timeCostCoefficient = 0;
-force force ace_fortify_timeMin = 6;
+force ace_fortify_timeCostCoefficient = 0;
+force ace_fortify_timeMin = 1.5;
 force force acex_fortify_settingHint = 1;
 
 // ACE Fragmentation Simulation
@@ -162,7 +162,7 @@ force force acex_headless_delay = 15;
 force force acex_headless_enabled = true;
 force force acex_headless_endMission = 0;
 force force acex_headless_log = true;
-force force acex_headless_transferLoadout = 1;
+force force acex_headless_transferLoadout = 0;
 
 // ACE Hearing
 force ace_hearing_autoAddEarplugsToUnits = false;
@@ -234,6 +234,7 @@ ace_interact_menu_more__DBA_Stims = false;
 ace_interact_menu_more__DotMarkerCreate = false;
 ace_interact_menu_more__JLTS_repairWeapons = false;
 ace_interact_menu_more__Kill Feed = false;
+ace_interact_menu_more__RD501 Lights = false;
 ace_interact_menu_more__TFAR_Radio = false;
 ace_interact_menu_more__Zeus = false;
 
@@ -295,20 +296,9 @@ ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches__grad_trenches_digEnve
 ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches__grad_trenches_digEnvelopeLongNameEmplacment = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches__grad_trenches_digEnvelopeShort = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches__grad_trenches_digEnvelopeVehicle = false;
-ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches_digBunker = false;
-ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches_digEndTrench = false;
-ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches_digEndtrench_Half = false;
-ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches_digFoxhole = false;
-ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches_digMiddleTrench = false;
-ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches_digMiddleTrench_Half = false;
-ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches_digNest = false;
-ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches_digStraightrench = false;
-ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches_digStraightrench_Half = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__ace_tripod_place = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__ls_holomap_deploy = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__ls_meme_eatChocolate = false;
-ace_interact_menu_moveToRoot__ACE_Equipment__MRH_Ace_SATCOM_ANTENNA = false;
-ace_interact_menu_moveToRoot__ACE_Equipment__MRH_Ace_USE_UTD = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__RD501_Auto_Radio_Freq = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__slingHelmet = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__slingHelmet__slingLeft = false;
@@ -814,14 +804,14 @@ diwako_dui_compass_hide_alone_group = false;
 diwako_dui_compass_hide_blip_alone_group = false;
 diwako_dui_compass_icon_scale = 1;
 diwako_dui_compass_opacity = 1;
-force force diwako_dui_compass_style = ["\z\diwako_dui\addons\radar\UI\compass_styles\classic\limited.paa","\z\diwako_dui\addons\radar\UI\compass_styles\classic\full.paa"];
+diwako_dui_compass_style = ["\z\diwako_dui\addons\radar\UI\compass_styles\classic\limited.paa","\z\diwako_dui\addons\radar\UI\compass_styles\classic\full.paa"];
 diwako_dui_compassRange = 35;
 diwako_dui_compassRefreshrate = 0;
 diwako_dui_dir_showMildot = false;
 diwako_dui_dir_size = 1.25;
 diwako_dui_distanceWarning = 3;
 diwako_dui_enable_compass = true;
-diwako_dui_enable_compass_dir = 1;
+diwako_dui_enable_compass_dir = 2;
 diwako_dui_enable_occlusion = false;
 diwako_dui_enable_occlusion_cone = 360;
 diwako_dui_hudScaling = 1.33333;
@@ -1008,13 +998,6 @@ force IMS_LightSabers_Mana_Knight = "0.00012";
 force IMS_LightSabers_Mana_Master = "0.00018";
 force IMS_LightSabers_Mana_Padawan = "0.00008";
 
-// MRHSatellite Options
-force MRH_SAT_allowFullscreen = true;
-force MRH_SAT_allowLasering = true;
-force MRH_SAT_allowTargetDetection = true;
-force MRH_SAT_allowTargetTracking = true;
-force MRH_SAT_MaxSatAltitude = 300;
-
 // OPTRE Powered MJOLNIR
 force OPTRE_HELMET_HUD_EVA = "OPTRE_MJOLNIR_EVAHelmet,OPTRE_MJOLNIR_EVAHelmet_Emily";
 force OPTRE_HELMET_HUD_MARKIV = "OPTRE_MJOLNIR_Mk4Helmet,OPTRE_MJOLNIR_Mk4Helmet_Blue,OPTRE_MJOLNIR_Mk4Helmet_Red";
@@ -1081,6 +1064,7 @@ rd501_medical_notification_enabled = true;
 rd501_medical_notification_message = "%1 is asking that you kindly hold still.";
 rd501_mfd_colours_custom = [0.5,0.5,0.5];
 rd501_mfd_colours_custom_alpha = 1;
+RD501_ZL_Enabled = true;
 
 // RD501 Radio Dialog Selector
 RD501_Radio_Dialog_Selector_Dialog = "rt1523g_radio_dialog";

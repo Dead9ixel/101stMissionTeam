@@ -6,6 +6,6 @@
 ["3as_shield_3_prop", 10],
 ["3as_shield_5_prop", 20],
 ["3as_shield_C_prop", 50], 
-["3as_fob_banner_prop", 1]
+["ls_commandPost_republic_green", 1]
 ] 
 ]call acex_fortify_fnc_registerObjects;

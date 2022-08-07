@@ -10,6 +10,7 @@
 ["3as_prop_fob_modular_wall_gate", 40],
 ["3as_prop_fob_modular_wall_straight_long", 50],
 ["3as_prop_fob_modular_wall_corner", 60],
+["3as_prop_fob_modular_wall_ramp", 80],
 ["3as_prop_fob_modular_wall_watchtower", 80],
 ["ls_commandPost_republic_green", 1]
 ]
